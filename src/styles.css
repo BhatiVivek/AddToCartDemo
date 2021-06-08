@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.headerDiv {
+  width: 100%;
+  margin: 5px;
+}
+
+.listDiv {
+  width: 70%;
+  padding: 5px;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: lightgrey;
+}
+
+.btnDelete {
+  margin-left: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.headerDiv:nth-child(even) .listDiv {
+  background-color: wheat;
+}
